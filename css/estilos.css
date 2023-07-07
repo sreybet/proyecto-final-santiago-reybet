@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(133, 179, 248);
+    color:white;
+    font: bolder;
+    text-align: center;
+}
+
+.fondo{
+    background-color: rgb(47, 136, 209);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    border: solid 3px black;
+}
+
+.cuadro{
+    width: 500px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(133, 179, 248);
+    color: white;
+}
+
+h3{
+    padding: 10px;
+}
+
+.cajaFiltro{
+    padding: 5px;
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: solid 3px black;
+}
+.cajaFiltro::placeholder{
+    color: black;
+    text-align: center;
+    font: bolder;
+}
+.botonFiltro{
+    padding: 5px;
+    width: 100px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(47, 136, 209);
+    border-radius: 20px;
+    border: solid 3px black;
+    font: bolder;
+}
+
+.filaTurnos{
+    background-color: rgb(73, 132, 199);
+    border-radius: 20px;
+    margin: 5px;
+    border: solid 3px black;
+}
+
+.colDias{
+    margin-top: 10px;
+}
+
+.reserva{
+    margin-top: 5px;
+    border-radius: 20px;    
+}
+
+.verMiReserva{
+    background-color:rgb(47, 136, 209) ;
+    width: 250px;
+    border-radius: 20px;
+    border: solid 3px black;
+    color: white;
+    padding: 5px;
+    margin-top: 15px;
+    
+}
+/*Pagina de reservas*/
+
+.tituloReservas{
+    margin: 25px;
+}
+
+.grillaReservas{
+    margin: 0 auto;
+}
+
+.totalReserva{
+    margin: 0 auto;
+    background-color: rgb(62, 87, 107);
+    border-radius: 20px;
+    border: solid 3px black;
+    width: 300px;
+}
+
+.totalReservaP{
+    margin-top: 10px;
+}
+
+main{
+    padding-bottom: 5%;
+}
+
+.divReservas{
+    padding-bottom: 10px;
+}
+
+.quitar{
+    border-radius: 60px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.quitarTexto{
+    padding-top: 10px;
+}
+
+.mensajes{
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    border: solid 3px black;
+    border-radius: 20px;
+    background-color:rgb(62, 87, 107) ;
+    font: bolder;
+    font-size: large;
+}
+
+.modal{
+    background-color:rgba(133, 179, 248, 0.61) ;
+}
+.ventanaModal{
+    background-color: rgb(133, 179, 248);
+}
